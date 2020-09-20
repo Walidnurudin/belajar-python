@@ -8,7 +8,7 @@ nama = 'walid nurudin '
 _kelas = input("masuk kelas apa? ")
 print(nama + _kelas)
 
-# string
+# STRING
 print('Walid\nNurudin')
 print('Walid\tNurudin')
 print('\'Walid\'')
@@ -17,7 +17,7 @@ print('\'Walid\'')
 print(nama.capitalize()) # Walid nurudin
 print(nama.replace('i', 'e')) # waled nuruden
 
-# number
+# NUMBER
 x = 10
 y = 20
 print(x * y)
@@ -37,3 +37,9 @@ print(nama + str(x)) # walid nurudin10
 
 s = '5'
 print(x + int(s)) # 15
+
+# BOOLEAN
+a = 'joss'
+
+print(a.isalnum()) # True
+print(a.isdigit()) # False
